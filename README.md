@@ -1,6 +1,6 @@
-# Python Best Practices Cookiecutter
+# Cookiecutter Python App
 
-Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/).
+[Cookiecutter](https://github.com/audreyr/cookiecutter) template inspired by [python-best-practices-cookiecutter](https://github.com/sourcery-ai/python-best-practices-cookiecutter)
 
 ## Features
 - Testing with [pytest](https://docs.pytest.org/en/latest/)
@@ -22,7 +22,7 @@ python3 -m pipx ensurepath
 pipx install pipenv
 
 # Use cookiecutter to create project from this template
-pipx run cookiecutter gh:sourcery-ai/python-best-practices-cookiecutter
+pipx run cookiecutter gh:jwalton512/cookiecutter-python-app
 
 # Enter project directory
 cd <repo_name>
